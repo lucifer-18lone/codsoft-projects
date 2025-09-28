@@ -1,0 +1,1 @@
+import React from 'react'; import { Link } from 'react-router-dom'; export default function Home(){ return (<div><h2>Welcome to Quiz Maker</h2><p><Link to='/create' className='button'>Create a Quiz</Link> <Link to='/quizzes' className='button' style={{marginLeft:8}}>Browse Quizzes</Link></p></div>);}
